@@ -1,6 +1,6 @@
 <?php
 
-namespace Donquixote\Cellbrush\Columns;
+namespace AlanZhao\Cellbrush\Columns;
 
 interface ColumnClassesInterface {
 

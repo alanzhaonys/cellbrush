@@ -1,9 +1,9 @@
 <?php
 
-namespace Donquixote\Cellbrush\Html\Multiple;
+namespace AlanZhao\Cellbrush\Html\Multiple;
 
-use Donquixote\Cellbrush\Html\Attributes;
-use Donquixote\Cellbrush\Html\AttributesInterface;
+use AlanZhao\Cellbrush\Html\Attributes;
+use AlanZhao\Cellbrush\Html\AttributesInterface;
 
 /**
  * Object representing attributes for a series of html elements.

@@ -1,6 +1,6 @@
 <?php
 
-namespace Donquixote\Cellbrush;
+namespace AlanZhao\Cellbrush;
 
 class Util {
 

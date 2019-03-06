@@ -1,5 +1,5 @@
 <?php
-namespace Donquixote\Cellbrush\TSection;
+namespace AlanZhao\Cellbrush\TSection;
 
 /**
  * Interface for a collection of table rows.

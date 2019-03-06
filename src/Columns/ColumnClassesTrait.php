@@ -1,8 +1,8 @@
 <?php
 
-namespace Donquixote\Cellbrush\Columns;
+namespace AlanZhao\Cellbrush\Columns;
 
-use Donquixote\Cellbrush\Html\Multiple\DynamicAttributesMap;
+use AlanZhao\Cellbrush\Html\Multiple\DynamicAttributesMap;
 
 /**
  * @see ColumnClassesInterface

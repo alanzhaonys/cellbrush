@@ -1,6 +1,6 @@
 <?php
 
-namespace Donquixote\Cellbrush\TSection;
+namespace AlanZhao\Cellbrush\TSection;
 
 /**
  * Interface for a table section, without TagAttributesInterface
@@ -10,14 +10,14 @@ interface TableSectionStructureInterface extends TableRowsInterface {
   /**
    * @param string $colName
    *
-   * @return \Donquixote\Cellbrush\Handle\SectionColHandle
+   * @return \AlanZhao\Cellbrush\Handle\SectionColHandle
    */
   function colHandle($colName);
 
   /**
    * @param string $rowName
    *
-   * @return \Donquixote\Cellbrush\Handle\RowHandle
+   * @return \AlanZhao\Cellbrush\Handle\RowHandle
    * @throws \Exception
    */
   public function rowHandle($rowName);
@@ -28,7 +28,7 @@ interface TableSectionStructureInterface extends TableRowsInterface {
    *
    * @param $rowName
    *
-   * @return \Donquixote\Cellbrush\Handle\RowHandle
+   * @return \AlanZhao\Cellbrush\Handle\RowHandle
    * @throws \Exception
    */
   public function addRow($rowName);

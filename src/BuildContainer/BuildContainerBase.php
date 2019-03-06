@@ -1,9 +1,9 @@
 <?php
 
-namespace Donquixote\Cellbrush\BuildContainer;
+namespace AlanZhao\Cellbrush\BuildContainer;
 
-use Donquixote\Cellbrush\Html\Multiple\StaticAttributesMap;
-use Donquixote\Cellbrush\MiniContainer\MiniContainerBase;
+use AlanZhao\Cellbrush\Html\Multiple\StaticAttributesMap;
+use AlanZhao\Cellbrush\MiniContainer\MiniContainerBase;
 
 /**
  * Settable properties:
@@ -71,7 +71,7 @@ class BuildContainerBase extends MiniContainerBase {
   }
 
   /**
-   * @param \Donquixote\Cellbrush\Html\Multiple\StaticAttributesMap $rowAttributes
+   * @param \AlanZhao\Cellbrush\Html\Multiple\StaticAttributesMap $rowAttributes
    *
    * @see BuildContainerBase::$RowAttributes
    */
@@ -90,14 +90,14 @@ class BuildContainerBase extends MiniContainerBase {
   }
 
   /**
-   * @param \Donquixote\Cellbrush\Html\Multiple\StaticAttributesMap $tableColAttributes
+   * @param \AlanZhao\Cellbrush\Html\Multiple\StaticAttributesMap $tableColAttributes
    */
   protected function validate_TableColAttributes(StaticAttributesMap $tableColAttributes) {
     // No validation, always accept.
   }
 
   /**
-   * @param \Donquixote\Cellbrush\Html\Multiple\StaticAttributesMap $sectionColAttributes
+   * @param \AlanZhao\Cellbrush\Html\Multiple\StaticAttributesMap $sectionColAttributes
    */
   protected function validate_SectionColAttributes(StaticAttributesMap $sectionColAttributes) {
     // No validation, always accept.

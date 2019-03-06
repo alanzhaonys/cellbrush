@@ -1,8 +1,8 @@
 <?php
 
-namespace Donquixote\Cellbrush\Columns;
+namespace AlanZhao\Cellbrush\Columns;
 
-use Donquixote\Cellbrush\Axis\DynamicAxis;
+use AlanZhao\Cellbrush\Axis\DynamicAxis;
 
 /**
  * @see TableColumnsInterface

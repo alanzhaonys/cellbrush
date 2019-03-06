@@ -1,6 +1,6 @@
 <?php
 
-namespace Donquixote\Cellbrush\Html;
+namespace AlanZhao\Cellbrush\Html;
 
 /**
  * This class is not used anywhere.

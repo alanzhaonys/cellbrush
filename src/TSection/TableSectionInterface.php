@@ -1,8 +1,8 @@
 <?php
 
-namespace Donquixote\Cellbrush\TSection;
+namespace AlanZhao\Cellbrush\TSection;
 
-use Donquixote\Cellbrush\Html\MutableAttributesInterface;
+use AlanZhao\Cellbrush\Html\MutableAttributesInterface;
 
 /**
  * Interface for a table section element.

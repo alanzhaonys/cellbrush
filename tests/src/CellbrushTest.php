@@ -1,8 +1,8 @@
 <?php
 
-namespace Donquixote\Cellbrush\Tests;
+namespace AlanZhao\Cellbrush\Tests;
 
-use Donquixote\Cellbrush\Table\Table;
+use AlanZhao\Cellbrush\Table\Table;
 
 class CellbrushTest extends \PHPUnit_Framework_TestCase {
 

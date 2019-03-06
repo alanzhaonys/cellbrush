@@ -1,6 +1,6 @@
 <?php
 
-namespace Donquixote\Cellbrush\Cell;
+namespace AlanZhao\Cellbrush\Cell;
 
 /**
  * Pseudo-cell in the shadow of a rowspan or colspan.

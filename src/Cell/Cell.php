@@ -1,8 +1,8 @@
 <?php
 
-namespace Donquixote\Cellbrush\Cell;
+namespace AlanZhao\Cellbrush\Cell;
 
-use Donquixote\Cellbrush\Html\Element;
+use AlanZhao\Cellbrush\Html\Element;
 
 class Cell extends Element implements CellInterface {
 

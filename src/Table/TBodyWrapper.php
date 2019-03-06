@@ -1,11 +1,11 @@
 <?php
 
-namespace Donquixote\Cellbrush\Table;
+namespace AlanZhao\Cellbrush\Table;
 
-use Donquixote\Cellbrush\Axis\Axis;
-use Donquixote\Cellbrush\Html\Multiple\StaticAttributesMap;
-use Donquixote\Cellbrush\TSection\TableSection;
-use Donquixote\Cellbrush\TSection\TableSectionStructureInterface;
+use AlanZhao\Cellbrush\Axis\Axis;
+use AlanZhao\Cellbrush\Html\Multiple\StaticAttributesMap;
+use AlanZhao\Cellbrush\TSection\TableSection;
+use AlanZhao\Cellbrush\TSection\TableSectionStructureInterface;
 
 /**
  * Wrapper/decorator for a tbody element.
@@ -13,21 +13,21 @@ use Donquixote\Cellbrush\TSection\TableSectionStructureInterface;
 class TBodyWrapper implements TableSectionStructureInterface {
 
   /**
-   * @var \Donquixote\Cellbrush\TSection\TableSection
+   * @var \AlanZhao\Cellbrush\TSection\TableSection
    */
   private $tbody;
 
   /**
    * The constructor.
    *
-   * @param \Donquixote\Cellbrush\TSection\TableSection $tbody
+   * @param \AlanZhao\Cellbrush\TSection\TableSection $tbody
    */
   function __construct(TableSection $tbody) {
     $this->tbody = $tbody;
   }
 
   /**
-   * @return \Donquixote\Cellbrush\TSection\TableSection
+   * @return \AlanZhao\Cellbrush\TSection\TableSection
    */
   function tbody() {
     return $this->tbody;
@@ -36,7 +36,7 @@ class TBodyWrapper implements TableSectionStructureInterface {
   /**
    * @param string $colName
    *
-   * @return \Donquixote\Cellbrush\Handle\SectionColHandle
+   * @return \AlanZhao\Cellbrush\Handle\SectionColHandle
    */
   function colHandle($colName) {
     return $this->tbody->colHandle($colName);
@@ -78,7 +78,7 @@ class TBodyWrapper implements TableSectionStructureInterface {
   /**
    * @param string $rowName
    *
-   * @return \Donquixote\Cellbrush\Handle\RowHandle
+   * @return \AlanZhao\Cellbrush\Handle\RowHandle
    * @throws \Exception
    */
   public function rowHandle($rowName) {
@@ -91,7 +91,7 @@ class TBodyWrapper implements TableSectionStructureInterface {
    *
    * @param $rowName
    *
-   * @return \Donquixote\Cellbrush\Handle\RowHandle
+   * @return \AlanZhao\Cellbrush\Handle\RowHandle
    * @throws \Exception
    */
   public function addRow($rowName) {

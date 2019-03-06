@@ -1,9 +1,9 @@
 <?php
 
-namespace Donquixote\Cellbrush\Tests;
+namespace AlanZhao\Cellbrush\Tests;
 
-use Donquixote\Cellbrush\Cell\Cell;
-use Donquixote\Cellbrush\Matrix\CellMatrix;
+use AlanZhao\Cellbrush\Cell\Cell;
+use AlanZhao\Cellbrush\Matrix\CellMatrix;
 
 class CellMatrixTest extends \PHPUnit_Framework_TestCase {
 

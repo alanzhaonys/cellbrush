@@ -1,6 +1,6 @@
 <?php
 
-namespace Donquixote\Cellbrush\TSection;
+namespace AlanZhao\Cellbrush\TSection;
 
 class TableRows {
 

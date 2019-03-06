@@ -1,6 +1,6 @@
 <?php
 
-namespace Donquixote\Cellbrush\Axis;
+namespace AlanZhao\Cellbrush\Axis;
 
 /**
  * This is used for row names and column names.

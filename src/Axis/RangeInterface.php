@@ -1,5 +1,5 @@
 <?php
-namespace Donquixote\Cellbrush\Axis;
+namespace AlanZhao\Cellbrush\Axis;
 
 interface RangeInterface {
 

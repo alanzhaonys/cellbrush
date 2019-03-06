@@ -1,9 +1,9 @@
 <?php
 
-namespace Donquixote\Cellbrush\Tests;
+namespace AlanZhao\Cellbrush\Tests;
 
-use Donquixote\Cellbrush\Axis\DynamicAxis;
-use Donquixote\Cellbrush\TSection\TableSection;
+use AlanZhao\Cellbrush\Axis\DynamicAxis;
+use AlanZhao\Cellbrush\TSection\TableSection;
 
 class TableSectionTest extends \PHPUnit_Framework_TestCase {
 

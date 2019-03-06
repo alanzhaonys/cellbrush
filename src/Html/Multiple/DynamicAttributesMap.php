@@ -1,6 +1,6 @@
 <?php
 
-namespace Donquixote\Cellbrush\Html\Multiple;
+namespace AlanZhao\Cellbrush\Html\Multiple;
 
 /**
  * Object representing attributes for a series of html elements.

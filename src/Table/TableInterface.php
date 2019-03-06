@@ -1,11 +1,11 @@
 <?php
 
-namespace Donquixote\Cellbrush\Table;
+namespace AlanZhao\Cellbrush\Table;
 
-use Donquixote\Cellbrush\Columns\ColumnClassesInterface;
-use Donquixote\Cellbrush\Columns\TableColumnsInterface;
-use Donquixote\Cellbrush\Html\MutableAttributesInterface;
-use Donquixote\Cellbrush\TSection\TableSectionStructureInterface;
+use AlanZhao\Cellbrush\Columns\ColumnClassesInterface;
+use AlanZhao\Cellbrush\Columns\TableColumnsInterface;
+use AlanZhao\Cellbrush\Html\MutableAttributesInterface;
+use AlanZhao\Cellbrush\TSection\TableSectionStructureInterface;
 
 interface TableInterface extends
   MutableAttributesInterface,

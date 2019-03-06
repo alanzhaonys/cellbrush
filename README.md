@@ -1,4 +1,4 @@
-[![Build Status](https://secure.travis-ci.org/donquixote/cellbrush.png)](https://travis-ci.org/donquixote/cellbrush)
+[![Build Status](https://secure.travis-ci.org/AlanZhao/cellbrush.png)](https://travis-ci.org/AlanZhao/cellbrush)
 
 # Cellbrush table generator
 
@@ -32,7 +32,7 @@ API design:
 A simple 3x3 table with the diagonal cells filled. 
 
 ```php
-$table = \Donquixote\Cellbrush\Table\Table::create()
+$table = \AlanZhao\Cellbrush\Table\Table::create()
   ->addRowNames(['row0', 'row1', 'row2'])
   ->addColNames(['col0', 'col1', 'col2'])
   ->td('row0', 'col0', 'Diag 0')
@@ -435,7 +435,7 @@ print $table->render();
 
 ## More examples?
 
-You can see more examples in [the unit tests](https://github.com/donquixote/cellbrush/tree/master/tests/src).
+You can see more examples in [the unit tests](https://github.com/AlanZhao/cellbrush/tree/master/tests/src).
 
 ## Planned features
 

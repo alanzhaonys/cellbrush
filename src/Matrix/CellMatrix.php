@@ -1,10 +1,10 @@
 <?php
 
-namespace Donquixote\Cellbrush\Matrix;
+namespace AlanZhao\Cellbrush\Matrix;
 
-use Donquixote\Cellbrush\Cell\CellInterface;
-use Donquixote\Cellbrush\Cell\PlaceholderCell;
-use Donquixote\Cellbrush\Cell\ShadowCell;
+use AlanZhao\Cellbrush\Cell\CellInterface;
+use AlanZhao\Cellbrush\Cell\PlaceholderCell;
+use AlanZhao\Cellbrush\Cell\ShadowCell;
 
 /**
  * Matrix of table cells by index.
@@ -50,7 +50,7 @@ class CellMatrix {
   /**
    * @param int $iRow
    * @param int $iCol
-   * @param \Donquixote\Cellbrush\Cell\CellInterface $cell
+   * @param \AlanZhao\Cellbrush\Cell\CellInterface $cell
    */
   public function addCell($iRow, $iCol, CellInterface $cell) {
     if ($cell->hasRange()) {
@@ -157,7 +157,7 @@ class CellMatrix {
   }
 
   /**
-   * @return \Donquixote\Cellbrush\Cell\CellInterface[][]
+   * @return \AlanZhao\Cellbrush\Cell\CellInterface[][]
    */
   public function getCells() {
     return $this->cells;

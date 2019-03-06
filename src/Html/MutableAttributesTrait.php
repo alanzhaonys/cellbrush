@@ -1,6 +1,6 @@
 <?php
 
-namespace Donquixote\Cellbrush\Html;
+namespace AlanZhao\Cellbrush\Html;
 
 /**
  * @see MutableAttributesInterface

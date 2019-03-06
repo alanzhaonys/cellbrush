@@ -1,9 +1,9 @@
 <?php
 
-namespace Donquixote\Cellbrush\Handle;
+namespace AlanZhao\Cellbrush\Handle;
 
-use Donquixote\Cellbrush\Table\Table;
-use Donquixote\Cellbrush\TSection\TableSection;
+use AlanZhao\Cellbrush\Table\Table;
+use AlanZhao\Cellbrush\TSection\TableSection;
 
 class TableColHandle extends SectionColHandle {
 

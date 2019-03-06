@@ -1,8 +1,8 @@
 <?php
 
-namespace Donquixote\Cellbrush\Tests;
+namespace AlanZhao\Cellbrush\Tests;
 
-use Donquixote\Cellbrush\Html\Multiple\StaticAttributesMap;
+use AlanZhao\Cellbrush\Html\Multiple\StaticAttributesMap;
 
 class AttributesMapTest extends \PHPUnit_Framework_TestCase {
 

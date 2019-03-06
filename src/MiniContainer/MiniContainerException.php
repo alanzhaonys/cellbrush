@@ -1,6 +1,6 @@
 <?php
 
-namespace Donquixote\Cellbrush\MiniContainer;
+namespace AlanZhao\Cellbrush\MiniContainer;
 
 class MiniContainerException extends \RuntimeException {
 

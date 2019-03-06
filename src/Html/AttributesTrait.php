@@ -1,8 +1,8 @@
 <?php
 
-namespace Donquixote\Cellbrush\Html;
+namespace AlanZhao\Cellbrush\Html;
 
-use Donquixote\Cellbrush\Util;
+use AlanZhao\Cellbrush\Util;
 
 /**
  * @see ImmutableAttributesInterface

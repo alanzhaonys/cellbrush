@@ -1,8 +1,8 @@
 <?php
 
-namespace Donquixote\Cellbrush\Tests;
+namespace AlanZhao\Cellbrush\Tests;
 
-use Donquixote\Cellbrush\Axis\DynamicAxis;
+use AlanZhao\Cellbrush\Axis\DynamicAxis;
 
 class HierarchyTest extends \PHPUnit_Framework_TestCase {
 
